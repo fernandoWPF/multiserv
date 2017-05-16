@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){$(".anime").each(function(){var a=$(this).offset().top+$(this).outerHeight(),b=$(window).scrollTop()+$(window).height();b>a-10&&($(this).css("visibility","visible"),$(this).addClass("flip-left"))})})});
