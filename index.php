@@ -56,6 +56,7 @@ require './_app/Config.inc.php';
         <script src="<?= HOME; ?>/_cdn/jquery-3.1.1.min.js"></script>
         <script src="<?= HOME; ?>/_cdn/bootstrap.min.js"></script>
         <script src="<?= HOME; ?>/_cdn/script.js"></script>
+        <script src="<?= HOME; ?>/_cdn/praga.js"></script>
         <script src="<?= HOME; ?>/_cdn/mail.js"></script>
         <script src="<?= HOME; ?>/_cdn/animation.js"></script>
 

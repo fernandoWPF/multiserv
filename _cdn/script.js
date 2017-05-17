@@ -90,5 +90,4 @@ function showSection() {
     divs[sectionIndex - 1].style.display = "block";
     btns[sectionIndex - 1].className += " active";
 }
-
 $(document).ready(inputs(), scrollSuave(), showSection(sectionIndex));

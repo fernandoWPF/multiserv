@@ -1,5 +1,5 @@
 <div class="container div-sections">
-    <article class="row section-group enter-left-bounce" id="section1">
+    <article class="row section-group enter-left-bounce">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <h3>COMÉRCIO</h3>
             <p class="tagline">Insetos e ratos em um estabelecimento comercial é uma combinação inaceitável!</p>
@@ -10,7 +10,7 @@
             <img src="<?= INCLUDE_PATH; ?>/img/1.jpg" class="img-rounded img-responsive">
         </div>
     </article>
-    <article class="row section-group enter-left-bounce" id="section2">
+    <article class="row section-group enter-left-bounce">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <h3>INDÚSTRIA</h3>
             <p class="tagline">Insetos junto à produtos acabados, pode comprometer todo o seu investimento de estoque!</p>
@@ -21,7 +21,7 @@
             <img src="<?= INCLUDE_PATH; ?>/img/2.jpg" class="img-rounded img-responsive"> 
         </div>
     </article>
-    <article class="row section-group enter-left-bounce" id="section3">        
+    <article class="row section-group enter-left-bounce">        
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <h3>CLÍNCAS E HOSPITAIS</h3>
             <p class="tagline">Insetos em clínicas e hospitais são inaceitáveis.</p>
@@ -32,7 +32,7 @@
             <img src="<?= INCLUDE_PATH; ?>/img/3.jpg" class="img-rounded img-responsive"> 
         </div>
     </article>
-    <article class="row section-group enter-left-bounce" id="section4">
+    <article class="row section-group enter-left-bounce">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <h3 class="">RESIDÊNCIAS E CONDOMÍNIOS</h3>
             <p class="tagline">Insetos e ratos em uma residência são um risco para a sua saúde e de sua família!</p>

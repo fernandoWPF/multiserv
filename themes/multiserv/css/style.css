@@ -664,9 +664,14 @@
     padding-top: 30px;
     background-color: #fff;
 }
-.btn-section, .btn-section:hover{
+.btn-section, .btn-dedetizacao, .btn-section:hover, .btn-dedetizacao:hover{
     background-color: #2f3fbb;
     color: #fff !important;
+}
+.btn-dedetizacao:active, .btn-dedetizacao:focus{
+    border: 1px solid #fff;
+    border-radius: 0;
+    outline: none !important;
 }
 .btn-section:active, .btn-section:focus, .btn-active{
     background-color: #fff;
@@ -818,6 +823,11 @@
         border-bottom: none;
     }
 }
+/*DEDETIZAÇÃO*/
+.div-btn-dedetizacao{
+    background-color: #2f3fbb;
+}
+/*DEDETIZAÇÃO*/
 p#retorno-email{
     line-height: 2 !important;
 }
