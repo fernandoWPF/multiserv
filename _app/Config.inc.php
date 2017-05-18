@@ -43,6 +43,12 @@ switch ($Url[0]):
         $pg_image = $pg_sitekit . 'multiserv.png';
         $pg_url = HOME . 'construcao_civil';
         break;
+    case 'contato':
+        $pg_title = 'Contato';
+        $pg_desc = 'descrição do site';
+        $pg_image = $pg_sitekit . 'multiserv.png';
+        $pg_url = HOME . 'contato';
+        break;
 
     default :
         $pg_title = 'Página Não Encontrada!';

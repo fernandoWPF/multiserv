@@ -682,6 +682,19 @@
 .div-sections{
     padding: 30px 50px !important;
 }
+blockquote{
+  border-left: 2px solid #337ab7 !important;
+}
+.wrapper {
+  height: 100% !important;
+  min-height: 100% !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+}
 /*SECTIONS*/
 
 /*ENTRE EM CONTATO 7º DOBRA*/

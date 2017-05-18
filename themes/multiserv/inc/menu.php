@@ -16,7 +16,7 @@
                 <li><a href="<?= HOME; ?>">Home</a></li>
                 <li><a href="<?= HOME; ?>dedetizacao">Dedetização</a></li>
                 <li><a href="<?= HOME; ?>construcao_civil">Construção Civil</a></li>
-                <li><a href="<?= HOME; ?>#contato">Contato</a></li>
+                <li><a href="<?= HOME; ?>contato">Contato</a></li>
             </ul>
         </div>
     </div>

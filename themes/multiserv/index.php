@@ -58,26 +58,26 @@
         Localizada na cidade de Sarandi-PR, a Multiserv é uma empresa especializada em <b>Dedetização</b> e <b>Serviços de Construção Civil</b>. Há mais de 15 anos atuando no mercado, a Multiserv possui clientes distribuidos por todo o estado do Paraná. Além de oferecer atendimento e serviços de alta qualidade, sempre busca entregar algo a mais, tendo sempre como principais características a <b>qualidade</b>, o <b>compromisso</b>, e a <b>responsabilidade</b> que seus clientes merecem.
     </p>
     <div class="row text-center main_sobre-item">
-        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4 anime">
+        <article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 anime">
             <div class="">
                 <img src="<?= INCLUDE_PATH; ?>/img/compromisso.png" alt="Compromisso" class="img-responsive">
-                <h3>COMPROMISSO</h3>
+                <h4>COMPROMISSO</h4>
                 <hr>
                 <p class="tagline">Estamos sempre atendendo as normas de segurança, bem como as boas práticas no controle de pragas. Mais que compromisso no trabalho executado é o que temos com nossos clientes seja uma breve ligação ou até mesmo uma importante reunião.</p>
             </div>
         </article>
-        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4 anime">
+        <article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 anime">
             <div class="">
                 <img src="<?= INCLUDE_PATH; ?>/img/responsabilidade.png" alt="Responsabilidade" class="img-responsive">
-                <h3>RESPONSABILIDADE</h3>
+                <h4>RESPONSABILIDADE</h4>
                 <hr>
                 <p class="tagline">Utizamos somente produtos avalidados e autorizados pelo Ministério da Saúde. Não somente na utilização dos nossos produtos, nossa responsabilidade é para com nossos clientes, não permitindo que falhas ou erros ocorram. Nossos clientes são nossos verdadeiros fãs.</p>
             </div>
         </article>
-        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4 anime">
+        <article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 anime">
             <div class="">
                 <img src="<?= INCLUDE_PATH; ?>/img/qualidade.png" alt="Qualidade" class="img-responsive">
-                <h3>QUALIDADE</h3>
+                <h4>QUALIDADE</h4>
                 <hr>
                 <p class="tagline">Aplicamos o que há de melhor e maior referência no mercado. Mais que qualidade nos produtos aplicados, temos o prazer de atender com qualidade nossos clientes e parceiros.</p>
             </div>
