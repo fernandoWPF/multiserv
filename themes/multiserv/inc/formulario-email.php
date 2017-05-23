@@ -25,7 +25,7 @@
     </div>
     <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="form-email input-group-lg">
-            <button type="submit" formmethod="POST" name="btn" class="btn btn-warning form-control">ENVIAR</button>
+            <button type="submit" formmethod="POST" name="btn" class="btn btn-danger form-control">ENVIAR</button>
         </div>
     </div>
 </form>

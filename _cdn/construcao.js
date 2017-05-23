@@ -1,18 +1,18 @@
 /*
- * =========================================
- * TRECHO PARA MOSTRAR AS SEÇÕES DEDETIZAÇÃO
- * =========================================
+ * ==============================================
+ * TRECHO PARA MOSTRAR AS SEÇÕES CONSTRUÇÃO CIVIL
+ * ==============================================
  */
-var dedetizacaoIndex = 1;
-function sectionDedetizacaoAtual(index2) {
-    showSectionDedetizacao(dedetizacaoIndex = index2);
+var construcaoIndex = 1;
+function sectionConstrucaoAtual(index) {
+    showSectionConstrucao(construcaoIndex = index);
 }
-function showSectionDedetizacao() {
+function showSectionConstrucao() {
     var i;
-    var divs = document.getElementsByClassName("dedetizacao-group");
+    var divs = document.getElementsByClassName("construcao-group");
     for (i = 0; i < divs.length; i++) {
         divs[i].style.display = "none";
     }
-    divs[dedetizacaoIndex - 1].style.display = "block";
+    divs[construcaoIndex - 1].style.display = "block";
 }
-$(document).ready(showSectionDedetizacao(dedetizacaoIndex));
+$(document).ready(showSectionConstrucao(construcaoIndex));

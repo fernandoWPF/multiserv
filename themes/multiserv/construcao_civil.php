@@ -1,10 +1,20 @@
-<main class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
-            <h1>Construção Civil</h1>
-            <p class="tagline text-justify">
-                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-            </p>
-        </div>
-    </div>
-</main>
+<!--CONSTRUÇÃO CIVIL-->
+<div class="container-fluid div-btn-construcao" align="center">
+    <button type="button" class="btn btn-construcao" onclick="sectionConstrucaoAtual(1)">
+        <img src="<?= INCLUDE_PATH; ?>/img/limpeza-caixa-dagua.png" alt="Limpeza em caixa dágua" class="img-responsive">
+    </button>
+    <button type="button" class="btn btn-construcao" onclick="sectionConstrucaoAtual(2)">
+        <img src="<?= INCLUDE_PATH; ?>/img/corte-arvores.png" alt="Corte de árvores" class="img-responsive">
+    </button>
+    <button type="button" class="btn btn-construcao" onclick="sectionConstrucaoAtual(3)">
+        <img src="<?= INCLUDE_PATH; ?>/img/pintura.png" alt="Pinturas" class="img-responsive">
+    </button>
+    <button type="button" class="btn btn-construcao" onclick="sectionConstrucaoAtual(4)">
+        <img src="<?= INCLUDE_PATH; ?>/img/trabalho-altura.png" alt="Serviçoes em alturas" class="img-responsive">
+    </button>
+    <button type="button" class="btn btn-construcao" onclick="sectionConstrucaoAtual(5)">
+        <img src="<?= INCLUDE_PATH; ?>/img/instalacoes-eletricas.png" alt="Instalações elétricas" class="img-responsive">
+    </button>
+</div>
+<?php require REQUIRE_PATH . '/inc/construcao-item.php'; ?>
+<!--CONSTRUÇÃO CIVIL-->

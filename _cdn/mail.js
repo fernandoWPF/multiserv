@@ -12,16 +12,15 @@ jQuery(document).ready(function () {
                 $("form input").val("");
                 $("form textarea").val("");
 
-                $('#titulo-modal').html('E-mail enviado com Sucesso!');
-                $('#retorno-email').html('<strong>' + retorno + '</strong> <br>' +
-                        'Entraremos em contato com você o mais rápido possível.<br>' +
-                        'Fique a vontade para continuar explorando nosso Site!');
+                $('#titulo-modal').html('Enviando seu E-mail...');
+                $('#retorno-email').html('<strong>' + retorno + '</strong> <br>');
                 $("#modal").modal();
             },
             error: function (retorno) {
                 $("#modal button").removeAttr('disabled');
                 $("#modal button").removeClass('disabled');
-                $('#retorno-email').text('Email enviado com sucesso!!!' + retorno);
+                $('#retorno-email').html('Houve um erro ao enviar o e-mail! Erro:' + retorno + '<br>' +
+                        'Mas não saia ainda, faça-nos uma visita em nosso endereço disponível no mapa abaixo.');
                 $("#modal").modal();
             }
         });

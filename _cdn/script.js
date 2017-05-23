@@ -16,6 +16,8 @@ function inputs() {
         $(".div-form-email").removeClass("form-group-lg");
         $(".form-email").removeClass("input-group-md");
         $(".div-form-email").removeClass("form-group-md");
+        $(".wrapper").addClass("nowrapper");
+        $(".nowrapper").removeClass("wrapper");
     } else {
         $(".form-email").addClass("input-group-lg");
         $(".div-form-email").addClass("form-group-lg");
@@ -23,6 +25,8 @@ function inputs() {
         $(".div-form-email").removeClass("form-group-sm");
         $(".form-email").removeClass("input-group-md");
         $(".div-form-email").removeClass("form-group-md");
+        $(".nowrapper").addClass("wrapper");
+        $(".wrapper").removeClass("nowrapper");
     }
 
     if (window.innerWidth < 768) {

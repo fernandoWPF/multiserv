@@ -40,8 +40,12 @@ $Mailer->AltBody .= ' MENSAGEM: ' . (utf8_decode($GetPost['msg']));
 $Mailer->AddAddress('contato@multiserv.com.br');
 
 if ($Mailer->Send()) {
-    echo 'Obrigado pelo Contato ' .utf8_decode($GetPost['nome']) . '!';
+    echo 'Obrigado pelo Contato ' .utf8_decode($GetPost['nome']) . '! <br>'
+            . 'Entraremos em contato com você o mais rápido possível.<br>'
+            . 'Fique a vontade para continuar explorando nosso Site!';
 } else {
     echo 'Houve um erro ao enviar o e-mail:   '
-    . $Mailer->ErrorInfo;
+    . $Mailer->ErrorInfo . '<br>'
+            . 'Mas não saia ainda, faça-nos uma visita em nosso endereço disponível no mapa abaixo.';
+    
 }

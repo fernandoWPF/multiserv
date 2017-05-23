@@ -4,8 +4,8 @@
  * =========================================
  */
 var dedetizacaoIndex = 1;
-function sectionDedetizacaoAtual(index2) {
-    showSectionDedetizacao(dedetizacaoIndex = index2);
+function sectionDedetizacaoAtual(index) {
+    showSectionDedetizacao(dedetizacaoIndex = index);
 }
 function showSectionDedetizacao() {
     var i;

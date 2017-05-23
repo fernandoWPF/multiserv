@@ -664,10 +664,13 @@
     padding-top: 30px;
     background-color: #fff;
 }
-.btn-section, .btn-dedetizacao, .btn-section:hover, .btn-dedetizacao:hover{
+.btn-section, .btn-dedetizacao, .btn-construcao, .btn-section:hover, .btn-dedetizacao:hover{
     background-color: #2f3fbb;
     color: #fff !important;
 }
+/*.btn-dedetizacao{
+    border: outset 10px #293bcc !important;
+}*/
 .btn-dedetizacao:active, .btn-dedetizacao:focus{
     border: 1px solid #fff;
     border-radius: 0;
@@ -837,7 +840,7 @@ blockquote{
     }
 }
 /*DEDETIZAÇÃO*/
-.div-btn-dedetizacao{
+.div-btn-dedetizacao, .div-btn-construcao{
     background-color: #2f3fbb;
 }
 /*DEDETIZAÇÃO*/
@@ -870,4 +873,34 @@ p#retorno-email{
     .main_404-txt{
         font-size: 2.5rem;
     }
+}
+
+@media screen and (max-width: 992px) {
+  span,h4, a, blockquote {
+    font-size: 95% !important;
+  }
+  h1, .h1 {
+    font-size: 24px !important;  
+  }
+  h2, .h2 {
+    font-size: 22px !important;  
+  }
+  h3, .h3 {
+    font-size: 18px !important;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  span,h4, a, blockquote {
+    font-size: 90% !important;
+  }
+  h1, .h1 {
+    font-size: 20px !important;  
+  }
+  h2, .h2 {
+    font-size: 18px !important;  
+  }
+  h3, .h3 {
+    font-size: 16px !important;  
+  }
 }
