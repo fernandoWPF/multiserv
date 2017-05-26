@@ -10,7 +10,7 @@
                 </blockquote>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="<?= INCLUDE_PATH; ?>/img/1.jpg" class="img-rounded img-responsive">
+                <img src="<?= INCLUDE_PATH; ?>/img/comercio.jpeg" alt="Comércio" class="img-rounded img-responsive">
             </div>
         </div>
     </article>
@@ -25,7 +25,7 @@
                 </blockquote>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="<?= INCLUDE_PATH; ?>/img/2.jpg" class="img-rounded img-responsive"> 
+                <img src="<?= INCLUDE_PATH; ?>/img/industria.jpeg" alt="Indútria" class="img-rounded img-responsive"> 
             </div>
         </div>
     </article>
@@ -40,7 +40,7 @@
                 </blockquote>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="<?= INCLUDE_PATH; ?>/img/3.jpg" class="img-rounded img-responsive"> 
+                <img src="<?= INCLUDE_PATH; ?>/img/clinicas-hospitais.jpeg" alt="Clínicas e Hospitais" class="img-rounded img-responsive"> 
             </div>
         </div>
     </article>
@@ -55,7 +55,7 @@
                 </blockquote>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img src="<?= INCLUDE_PATH; ?>/img/4.jpg" class="img-rounded img-responsive"> 
+                <img src="<?= INCLUDE_PATH; ?>/img/residencia.jpeg" alt="Residências e Condomínios" class="img-rounded img-responsive"> 
             </div>
         </div>
     </article>  

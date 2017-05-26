@@ -2,41 +2,16 @@
 <header class="container-fluid main_cabecalho" id="inicio">
     <h1 class="invisible"><?= $pg_title; ?></h1>
     <div id="carousel-main" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-main" data-slide-to="1"></li>
-            <li data-target="#carousel-main" data-slide-to="2"></li>
-        </ol>
-
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="<?= INCLUDE_PATH; ?>/img/a.jpg" alt="..." style="width: 100%; height: 53vh">
-                <div class="carousel-caption">
-                    <div class="carousel-text enter-left-bounce">
-                        <h1>Pragas trazem doenças</h1>
-                        <p class="h3 tagline">Ratos transmitem leptospiroze e causa diarréia</p>
-                    </div>
-                </div>
+                <img src="<?= INCLUDE_PATH; ?>/img/casa-protegida.png" alt="Casa Protegida" class="img-responsive">
             </div>
             <div class="item">
-                <img src="<?= INCLUDE_PATH; ?>/img/b.jpg" alt="..."style="width: 100%; height: 53vh">
-                <div class="carousel-caption">
-                    <div class="carousel-text enter-up-bounce">
-                        <h1>Aranhas estão onde menos esperamos</h1>
-                        <p class="h3 tagline">Elas podem estar dentro da sua casa. Melhor não confiar.</p>
-                    </div>
-                </div>
+                <img src="<?= INCLUDE_PATH; ?>/img/empresa-impecavel.png" alt="Empresa Impecável" class="img-responsive">
             </div>
             <div class="item">
-                <img src="<?= INCLUDE_PATH; ?>/img/c.jpg" alt="..." style="width: 100%; height: 53vh">
-                <div class="carousel-caption">
-                    <div class="carousel-text enter-right-bounce">
-                        <h1>Persevejos são traiçoeiros</h1>
-                        <p class="h3 tagline">Para quem tem alergia, uma picada pode ser fatal</p>
-                    </div>
-                </div>
+                <img src="<?= INCLUDE_PATH; ?>/img/qualidade-compromisso.png" alt="Qualidade e Compromisso" class="img-responsive">
             </div>
         </div>
 
@@ -128,20 +103,20 @@
 </div>
 <!--MAPA-->
 <!--CERTIFICAÇÕES-->
-<section class="container main-certificacoes">
-    <h2 class="text-center h1"><span class="label label-danger">Nossas Certificações</span></h2>
+<section class="container-fluid main_certificacoes">
+    <h2 class="invisible">Certificações</h2>
     <div class="row text-center">
-        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <img src="<?= INCLUDE_PATH; ?>/img/iso2.png" alt="Responsabilidade" class="img-responsive">
-            <h3 class="invisible">Certificado 1</h3>
+        <article class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <img src="<?= INCLUDE_PATH; ?>/img/anvisa.jpg" alt="Anvisa">
+            <h3 class="invisible">Certificado Anvisa</h3>
         </article>
-        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <img src="<?= INCLUDE_PATH; ?>/img/iso2.png" alt="Responsabilidade" class="img-responsive">
-            <h3 class="invisible">Certificado 2</h3>
+        <article class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <img src="<?= INCLUDE_PATH; ?>/img/crea-pr.jpg" alt="CREA-PR">
+            <h3 class="invisible">Certificado CREA-PR</h3>
         </article>
-        <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <img src="<?= INCLUDE_PATH; ?>/img/iso2.png" alt="Responsabilidade" class="img-responsive">
-            <h3 class="invisible">Certificado 3</h3>
+        <article class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <img src="<?= INCLUDE_PATH; ?>/img/crf-pr.png" alt="Conselho Regional de Farmácia do Estado do Paraná">
+            <h3 class="invisible">CRF-PR</h3>
         </article>
     </div>
 </section>

@@ -590,18 +590,6 @@
 /*PRIMEIRA DOBRA*/
 .main_cabecalho {
     padding: 0 !important;
-    height: 53vh;
-}
-.main_cabecalho .carousel-text{
-    background: rgba(255,255,255,.7);
-    padding: 20px;
-    color: #000;
-}
-
-@media(min-width:991px){
-    .item{
-        height: 53vh;
-    }  
 }
 .dir, .esq{
     padding-top: 35px;
@@ -686,23 +674,23 @@
     padding: 30px 50px !important;
 }
 blockquote{
-  border-left: 2px solid #337ab7 !important;
+    border-left: 2px solid #337ab7 !important;
 }
 .wrapper {
-  height: 100% !important;
-  min-height: 100% !important;
-  display: -webkit-flex !important;
-  display: flex !important;
-  -webkit-align-items: center !important;
-  align-items: center !important;
-  -webkit-justify-content: center !important;
-  justify-content: center !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
 }
 /*SECTIONS*/
 
 /*ENTRE EM CONTATO 7º DOBRA*/
 .main_contato2 {
-    background-image: url(../img/g.jpg);
+    background-image: url(../img/contato.jpeg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -724,7 +712,7 @@ blockquote{
 
 .main_contato2-txt {
     padding-left: 35px !important;
-    color: #fff;
+    color: #000;
 }
 
 .main_contato2-txt h1 {
@@ -780,8 +768,15 @@ blockquote{
     }
 }
 /*CERTIFICAÇÃO*/
-.main-certificacoes img{
-    border-radius: 50%;
+.main_certificacoes img{
+    width: 300px;
+    height: 300px;
+}
+@media(max-width: 991px){
+    .main_certificacoes img{
+        width: 80%;
+        height: 80%;
+    }
 }
 /*CERTIFICAÇÃO*/
 
@@ -843,6 +838,9 @@ blockquote{
 .div-btn-dedetizacao, .div-btn-construcao{
     background-color: #2f3fbb;
 }
+.div-btn-dedetizacao img{
+    border: 1px solid #fff !important;
+}
 /*DEDETIZAÇÃO*/
 p#retorno-email{
     line-height: 2 !important;
@@ -876,31 +874,31 @@ p#retorno-email{
 }
 
 @media screen and (max-width: 992px) {
-  span,h4, a, blockquote {
-    font-size: 95% !important;
-  }
-  h1, .h1 {
-    font-size: 24px !important;  
-  }
-  h2, .h2 {
-    font-size: 22px !important;  
-  }
-  h3, .h3 {
-    font-size: 18px !important;  
-  }
+    span,h4, a, blockquote {
+        font-size: 95% !important;
+    }
+    h1, .h1 {
+        font-size: 24px !important;  
+    }
+    h2, .h2 {
+        font-size: 22px !important;  
+    }
+    h3, .h3 {
+        font-size: 18px !important;  
+    }
 }
 
 @media screen and (max-width: 768px) {
-  span,h4, a, blockquote {
-    font-size: 90% !important;
-  }
-  h1, .h1 {
-    font-size: 20px !important;  
-  }
-  h2, .h2 {
-    font-size: 18px !important;  
-  }
-  h3, .h3 {
-    font-size: 16px !important;  
-  }
+    span,h4, a, blockquote {
+        font-size: 90% !important;
+    }
+    h1, .h1 {
+        font-size: 20px !important;  
+    }
+    h2, .h2 {
+        font-size: 18px !important;  
+    }
+    h3, .h3 {
+        font-size: 16px !important;  
+    }
 }
