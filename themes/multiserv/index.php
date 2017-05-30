@@ -92,8 +92,6 @@
 
 <!--MAPA-->
 <div class="container-fluid">
-    <h2 class="text-center"><span class="label label-primary">Venha, faça-nos uma visita! Estamos bem próximo de você.</span></h2>
-    <br>
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding: 0">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.6530497228136!2d-51.869669785278866!3d-23.43689708474485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecdaa750a5af67%3A0x359f3ad912b7ea6c!2sMULTISERV+DEDETIZA%C3%87%C3%83O!5e0!3m2!1spt-BR!2sbr!4v1493073607043" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -103,43 +101,22 @@
 </div>
 <!--MAPA-->
 <!--CERTIFICAÇÕES-->
-<section class="container-fluid main_certificacoes">
+<section class="container-fluid div-certificacao">
     <h2 class="invisible">Certificações</h2>
     <div class="row text-center">
         <article class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <img src="<?= INCLUDE_PATH; ?>/img/anvisa.jpg" alt="Anvisa">
+            <img src="<?= INCLUDE_PATH; ?>/img/crf-pr.png" alt="Conselho Regional de Farmácia do Estado do Paraná" class="img-responsive">
+            <h3 class="invisible">CRF-PR</h3>
+        </article>
+        <article class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <img src="<?= INCLUDE_PATH; ?>/img/anvisa.jpg" alt="Anvisa" class="img-responsive" >
             <h3 class="invisible">Certificado Anvisa</h3>
         </article>
         <article class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <img src="<?= INCLUDE_PATH; ?>/img/crea-pr.jpg" alt="CREA-PR">
+            <img src="<?= INCLUDE_PATH; ?>/img/crea-pr.jpg" alt="CREA-PR" class="img-responsive" >
             <h3 class="invisible">Certificado CREA-PR</h3>
-        </article>
-        <article class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <img src="<?= INCLUDE_PATH; ?>/img/crf-pr.png" alt="Conselho Regional de Farmácia do Estado do Paraná">
-            <h3 class="invisible">CRF-PR</h3>
         </article>
     </div>
 </section>
 <!--CERTIFICAÇÕES-->
-<!--MODAL-->
-<div class="container">
-    <div class="modal fade" tabindex="-1" role="dialog" id="modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close disabled" disabled="disabled" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <span id="titulo-modal" class="h3 text-center modal-title">Enviando seu E-mail...</span>
-                </div>
-                <div class="modal-body modal-retorno-email">
-                    <p id="retorno-email" class="h4 text-center">
-                        <img src="<?= INCLUDE_PATH; ?>/img/loading.gif">
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger disabled" disabled="disabled" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--MODAL-->
+<?php require REQUIRE_PATH . '/inc/modal.php'; ?>

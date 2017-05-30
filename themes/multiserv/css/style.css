@@ -659,7 +659,7 @@
 /*.btn-dedetizacao{
     border: outset 10px #293bcc !important;
 }*/
-.btn-dedetizacao:active, .btn-dedetizacao:focus{
+.btn-dedetizacao:active, .btn-dedetizacao:focus, .btn-construcao:active, .btn-construcao:focus{
     border: 1px solid #fff;
     border-radius: 0;
     outline: none !important;
@@ -768,15 +768,8 @@ blockquote{
     }
 }
 /*CERTIFICAÇÃO*/
-.main_certificacoes img{
-    width: 300px;
-    height: 300px;
-}
-@media(max-width: 991px){
-    .main_certificacoes img{
-        width: 80%;
-        height: 80%;
-    }
+.div-certificacao img{
+    display: inline-block !important;
 }
 /*CERTIFICAÇÃO*/
 
