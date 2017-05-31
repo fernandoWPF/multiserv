@@ -13,6 +13,7 @@
                     <li>Sacudir roupas e sapatos antes de usá-los, pois as aranhas podem se esconder e picar ao serem comprimidos contra o corpo.</li>
                 </ul>
                 <p class="tagline text-justify">Combater a proliferação de insetos, para evitar o aparecimento das aranhas que deles se alimentam. O veneno está presente na grande maioria das aranhas (em todo o mundo, são conhecidos somente dois grupos de aranhas sem veneno), e sua composição química é bastante variada entre as espécies. A grande maioria tem veneno pouco tóxico para o organismo humano, como as caranguejeiras. Porém, o veneno de outras afeta o homem de maneira mais grave. Quando se sentem ameaçadas, as aranhas picam para se defender.</p>
+                <a class="btn btn-lg btn-danger" href="<?= HOME; ?>contato">INFORMAÇÕES PARA CONTATO</a> 
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <img src="<?= INCLUDE_PATH; ?>/img/aranhas.jpg" alt="Aranhas" class="img-rounded img-responsive">
@@ -32,6 +33,7 @@
                 <p class="tagline text-justify">Ao caminhar ou viver sobre a comida, as baratas defecam e a contaminam. Além disso, elas possuem secreção repugnante liberada por glândulas, a qual tem um odor nauseabundo característico, o “cheiro de barata”. Tudo isso torna o alimento impróprio para o consumo. Desta forma, pode-se afirmar que estes insetos provocam danos mais expressivos aos alimentos em termos qualitativos que quantitativos, podendo comprometer lojas, comércios, empresas, indústrias e até grandes marcas.</p>
                 <p class="tagline text-justify">Fonte de alimento para outros animais, escorpiões, lagartixas, aranhas e outros animais indesejáveis são atraídos pela presença das mesmas, levando indiretamente a maiores danos.</p>
                 <p class="tagline text-justify">Áreas de manipulação e armazenagem de alimentos estão sujeitas a infestação das baratas germânicas. Podem se dispersar de um lugar para outro, por meio das embalagens de alimentos, caixas de papelão e outros meios, em vista de que precisam de pequenos espaços para se alojar.</p>
+                <a class="btn btn-lg btn-danger" href="<?= HOME; ?>contato">INFORMAÇÕES PARA CONTATO</a> 
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <img src="<?= INCLUDE_PATH; ?>/img/baratas.jpg" alt="Baratas" class="img-rounded img-responsive">
@@ -42,16 +44,12 @@
         <div class="wrapper">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <h3>RATOS</h3>
-                <p class="tagline text-justify">Aranhas habitam praticamente todas as regiões do planeta. Possuem grande importância ecológica, pois são predadoras capazes de regular a população de insetos que podem se tornar pragas quando em grande número. Pertencem à classe Aracnídea, distinguindo-se dos insetos por não possuírem asas e antenas. Muitas aranhas têm hábitos domiciliares, o que favorece a ocorrência de acidentes.</p>
                 <span class="h3 text-primary">O que causam?</span>
-                <p class="tagline text-justify">Vivem em vários ambientes e podem entrar em residências, empresas, indústrias, hospitais, etc., escondendo-se em locais mais escuros. Algumas picadas podem causar dor local, vômitos, diarreia, queda da pressão arterial e convulsões.</p>
-                <ul><span>Evite coisas como:</span>
-                    <li>O acúmulo de entulhos, grama alta e falta de limpeza, podem contribuir para a incidência de aranhas.</li>
-                    <li>Folhagens densas (plantas ornamentais, trepadeiras, arbusto, bananeiras e outras) junto a paredes e muros. Manter a grama aparada; limpar periodicamente os terrenos baldios vizinhos, pelo menos, numa faixa de um a dois metros junto à divisa.</li>
-                    <li>Vedar frestas e buracos em paredes, assoalhos e vãos entre o forro e paredes para impedir o trânsito de aranhas.</li>
-                    <li>Sacudir roupas e sapatos antes de usá-los, pois as aranhas podem se esconder e picar ao serem comprimidos contra o corpo.</li>
-                </ul>
-                <p class="tagline text-justify">Combater a proliferação de insetos, para evitar o aparecimento das aranhas que deles se alimentam. O veneno está presente na grande maioria das aranhas (em todo o mundo, são conhecidos somente dois grupos de aranhas sem veneno), e sua composição química é bastante variada entre as espécies. A grande maioria tem veneno pouco tóxico para o organismo humano, como as caranguejeiras. Porém, o veneno de outras afeta o homem de maneira mais grave. Quando se sentem ameaçadas, as aranhas picam para se defender.</p>
+                <p class="tagline text-justify">Além de serem transmissores de diversas doenças, os ratos são os causadores de grandes perdas econômicas.</p>
+                <p class="tagline text-justify">A presença de roedores em áreas urbanas e áreas rurais geram grandes perdas econômicas e problemas sanitários para pessoas e animais.</p>
+                <p class="tagline text-justify">Na área urbana, os roedores são ágeis e se adaptam rapidamente à convivência com o homem no mesmo ambiente. A necessidade de roer para gastar os dentes causam danos incalculáveis. A contaminação pelas fezes e urina podem causar diversas doenças como: salmoneloses, leptospirose, hantavirose, peste bubônica, febre aftosa, doença de newcastle, triquinose, entre outros.</p>
+                <p class="tagline text-justify">Nos campos, atacam e destroem plantações de milho, cana-de-açúcar, arroz e trigo, que são algumas das culturas onde a ação dos roedores pode ser devastadora. Outro caso são os danos causados no armazenamento de ração e insumos (com roeduras, consumo e contaminação com fezes e urina) e nas instalações e equipamentos com roeduras, podendo causar curtos-circuitos e incêndios.</p>
+                <a class="btn btn-lg btn-danger" href="<?= HOME; ?>contato">INFORMAÇÕES PARA CONTATO</a> 
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <img src="<?= INCLUDE_PATH; ?>/img/ratos.jpg" alt="Ratos" class="img-rounded img-responsive">
@@ -68,6 +66,7 @@
                 <p class="tagline text-justify">Extrema contaminação.</p>
                 <p class="tagline text-justify">Facilmente observadas em vários ambientes, são atraídas por matéria em decomposição, lixo, resíduos expostos, etc. Podem transmitir parasitas intestinais, poliomielite e doenças entéricas. Seu fácil acesso a diversos ambientes como: empresas, restaurantes e hospitais, podem trazer vários prejuízos econômicos.</p>
                 <p class="tagline text-justify">Alimentam-se de fezes, escarros, pus, produtos animais e vegetais em decomposição, açúcar, entre outros. A mosca lança uma substância sobre o alimento para poder ingeri-lo, pois não consegue colocar nada sólido para dentro do organismo, somente matéria na forma líquida ou pastosa. Assim podem veicular os agentes em suas patas após pousarem em superfícies contaminadas com estes germes e pousarem nos alimentos, disseminando-os amplamente, e causando danos financeiros às empresas, clientes, consumidores, fornecedores e outros.</p>
+                <a class="btn btn-lg btn-danger" href="<?= HOME; ?>contato">INFORMAÇÕES PARA CONTATO</a> 
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <img src="<?= INCLUDE_PATH; ?>/img/moscas.jpg" alt="Moscas" class="img-rounded img-responsive">
@@ -86,6 +85,7 @@
                 <p class="tagline text-justify">As formigas que encontramos em ambiente doméstico, podem carregar bactérias e fungos. Elas são perigosas quando estão nos hospitais, uma vez que transferem bactérias resistentes a antibióticos de um setor para o outro. Deve-se evitar o consumo de alimentos por onde as formigas passam.</p>
                 <p class="tagline text-justify">Podem causar alergias em pessoas sensíveis, além de dolorida, sua picada provoca bolhas, alergias e até choque anafilático. A espécie se alimenta de plantas, animais e alimentos domésticos.</p>
                 <p class="tagline text-justify">Promove desequilíbrio ecológico favorecendo o desenvolvimento de organismos nocivos à agricultura.</p>
+                <a class="btn btn-lg btn-danger" href="<?= HOME; ?>contato">INFORMAÇÕES PARA CONTATO</a> 
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <img src="<?= INCLUDE_PATH; ?>/img/formiga.jpg" alt="Formigas" class="img-rounded img-responsive">
@@ -104,6 +104,7 @@
                 <p class="tagline text-justify">Atacam móveis e estruturas de madeira, deixam um granulado característico, que na verdade são suas fezes. Suas colônias têm algumas centenas de indivíduos, e costumam ficar isoladas em uma área.</p>
                 <p class="tagline text-justify">Eles se alimentam de celulose, destroem madeira, papel, papelão e até alguns tipos de tecidos, como o algodão.</p>
                 <p class="tagline text-justify">No campo os danos causados pelos cupins podem ser diretos, através do consumo de sementes e plantas, ou indiretos, pelos montes com muitas ramificações, dificultando a semeadura e a colheita, provocando a quebra de equipamentos e hospedam animais peçonhentos.</p>
+                <a class="btn btn-lg btn-danger" href="<?= HOME; ?>contato">INFORMAÇÕES PARA CONTATO</a> 
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <img src="<?= INCLUDE_PATH; ?>/img/cupins.jpg" alt="Cupins" class="img-rounded img-responsive">

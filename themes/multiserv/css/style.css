@@ -834,6 +834,10 @@ blockquote{
 .div-btn-dedetizacao img{
     border: 1px solid #fff !important;
 }
+.dedetizacao-group a, .construcao-group a{
+    padding: 15px;
+    margin-bottom: 15px;
+}
 /*DEDETIZAÇÃO*/
 p#retorno-email{
     line-height: 2 !important;

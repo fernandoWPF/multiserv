@@ -42,7 +42,6 @@ function inputs() {
         $(".btn-section").removeClass("btn-sm");
         $(".btn-section").addClass("btn-lg");
     }
-
     if ($(document).height() <= window.innerHeight) {
         $(".main_footer").addClass("navbar-fixed-bottom");
     } else {
