@@ -28,7 +28,7 @@ require './_app/Config.inc.php';
         <link rel="stylesheet" href="<?= INCLUDE_PATH; ?>/css/style.css">
         <link rel="stylesheet" href="<?= INCLUDE_PATH; ?>/css/bootstrap.min.css">
 
-        <link rel="shortcut icon" href="<?= INCLUDE_PATH; ?>/img/logo.png" />
+        <link rel="shortcut icon" href="<?= INCLUDE_PATH; ?>/img/favicon.png" />
     </head>
 
     <body>
