@@ -6,6 +6,9 @@
  */
 $(window).bind("resize", function () {
     inputs();
+    $('.carousel').carousel({
+        interval: 4000
+    });
 });
 function inputs() {
     if (window.innerWidth < 992) {

@@ -30,6 +30,7 @@
                     <li><a href="<?= HOME; ?>">Home</a></li>
                     <li><a href="<?= HOME; ?>dedetizacao">Dedetização</a></li>
                     <li><a href="<?= HOME; ?>construcao_civil">Construção Civil</a></li>
+                    <li><a href="<?= HOME; ?>caixa_dagua">Caixa D'água</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>

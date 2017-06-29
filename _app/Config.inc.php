@@ -43,6 +43,12 @@ switch ($Url[0]):
         $pg_image = $pg_sitekit . 'multiserv.png';
         $pg_url = HOME . 'construcao_civil';
         break;
+    case 'caixa_dagua':
+        $pg_title = 'Limpeza de Caixas Dágua';
+        $pg_desc = 'descrição do site';
+        $pg_image = $pg_sitekit . 'multiserv.png';
+        $pg_url = HOME . 'caixa_dagua';
+        break;
     case 'contato':
         $pg_title = 'Contato';
         $pg_desc = 'descrição do site';

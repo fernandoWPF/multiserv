@@ -519,9 +519,10 @@
 /*MENU PRINCIPAL*/
 
 .logo {
-    width: 200px;
+    width: 280px;
     position: absolute;
     z-index: 99;
+    background-color: #fff;
 }
 
 .div-top-item{
@@ -830,6 +831,7 @@ blockquote{
 /*DEDETIZAÇÃO*/
 .div-btn-dedetizacao, .div-btn-construcao{
     background-color: #2f3fbb;
+    margin-top: 50px;;
 }
 .div-btn-dedetizacao img{
     border: 1px solid #fff !important;

@@ -30,7 +30,7 @@
         </div>
     </div>
     <p class="tagline text-justify" style="padding: 30px;">
-        Localizada na cidade de Sarandi-PR, a Multiserv é uma empresa especializada em <b>Dedetização</b> e <b>Serviços de Construção Civil</b>. Há mais de 15 anos atuando no mercado, a Multiserv possui clientes distribuidos por todo o estado do Paraná. Além de oferecer atendimento e serviços de alta qualidade, sempre busca entregar algo a mais, tendo sempre como principais características a <b>qualidade</b>, o <b>compromisso</b>, e a <b>responsabilidade</b> que seus clientes merecem.
+        Localizada na cidade de Sarandi-PR, a Multiserv é uma empresa especializada em <b>Dedetização</b> e <b>Serviços de Construção Civil</b>. Fundada em 2001, a Multiserv possui clientes distribuidos por todo o estado do Paraná. Além de oferecer atendimento e serviços de alta qualidade, sempre busca entregar algo a mais, tendo sempre como principais características a <b>qualidade</b>, o <b>compromisso</b>, e a <b>responsabilidade</b> que seus clientes merecem.
     </p>
     <div class="row text-center main_sobre-item">
         <article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 anime">
