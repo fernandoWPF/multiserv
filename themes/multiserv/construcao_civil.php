@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-offset-1 col-lg-offset-1 col-xs-4 col-sm-4 col-md-2 col-lg-2">
             <button type="button" class="btn btn-construcao" onclick="sectionConstrucaoAtual(1)">
-                <img src="<?= INCLUDE_PATH; ?>/img/limpeza-caixa-dagua.png" alt="Limpeza em caixa dágua" class="img-responsive">
+                <img src="<?= INCLUDE_PATH; ?>/img/reformas-gerais.png" alt="Reformas em Geral" class="img-responsive">
             </button>
         </div>
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
